@@ -23,6 +23,7 @@ namespace ShopApp.DataAccess.Concrete.EfCore
         {
             modelBuilder.Entity<ProductCategory>()
                 .HasKey(c=> new {c.CategoryId,c.ProductId});
+            
         }
     }
 }
